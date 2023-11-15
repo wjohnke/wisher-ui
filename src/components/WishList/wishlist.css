@@ -1,0 +1,135 @@
+.wish-page {
+
+}
+
+.page-title {
+    font-family: 'Lexend Deca';
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wish-wrapper {
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, minmax(220px, 1fr));
+    padding: 20px 40px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.wish-wrapper>div:first-child {
+    grid-column: span 2;
+}
+
+.member-view {
+    background: rgba(255, 255, 255, 0.4);
+    min-height: 200px;
+    border: 2px solid #000F00;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.14) 0px 5px 10px 0px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px;
+}
+
+.member-name {
+    font-family: 'Lexend Deca';
+    font-size: 24px;
+}
+
+.item-list {
+    margin: 0 10px;
+    max-width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.item-link-address {
+    display: inline;
+    overflow-wrap: break-word;
+}
+
+.item-link-a {
+
+}
+
+.item {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.item-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    column-gap: 10px;
+}
+
+.item-input-title {
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.item-input-section1 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+.item-input-section2 {
+    width: 35%;
+    position: relative;
+    bottom: 0px;
+}
+
+.item-self {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.item-self-icons {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item-input-save-holder {
+    position: absolute;
+    left: 160px;
+    bottom: -5px;
+}
+
+.item-input-save-wrapper {
+    cursor: pointer;
+    border-radius: 50%;
+    background: #07337E;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-self-name {
+    width: 93%;
+}
+
+.item-description.purchased {
+    text-decoration: line-through;
+}
+
+.item-input-reserve {
+    cursor: pointer;
+}
+.item-input-purchase {
+    cursor: pointer;
+}

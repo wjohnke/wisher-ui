@@ -1,0 +1,28 @@
+.welcome-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Lexend Deca';
+    font-size: 48px;
+    width: 100%;
+}
+
+.input {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-text-box {
+    width: 340px;
+}

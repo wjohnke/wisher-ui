@@ -1,0 +1,44 @@
+.group-title {
+    font-family: 'Lexend Deca';
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.group-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 20px 40px;
+    column-gap: 20px;
+}
+
+.group {
+    background: rgba(255, 255, 255, 0.4);
+    height: 200px;
+    border: 2px solid #000F00;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.14) 0px 5px 10px 0px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px;
+}
+
+.group:hover {
+    /*border: 2px solid blue;*/
+    box-shadow: #1F5DC7 0px 6px 10px 0px, #1F5DC7 0px 5px 10px 0px, #1F5DC7 0px 6px 10px 0px;
+    background-image: linear-gradient(to right bottom, rgba(165, 200, 255, 0.4), rgba(176, 205, 253, 0.4), rgba(187, 210, 252, 0.4), rgba(197, 216, 250, 0.4), rgba(207, 221, 248, 0.4));
+}
+
+.group-name {
+
+    font-family: 'Lexend Deca';
+    font-size: 24px;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+}
+
+.member {
+    width: 100%;
+    font-family: 'Lexend Deca';
+}
